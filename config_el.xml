@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>boxnow</name>
+    <displayName><![CDATA[BoxNow]]></displayName>
+    <version><![CDATA[1.0.5]]></version>
+    <description><![CDATA[Allow customer to pick up orders themselves in BoxNow lockers]]></description>
+    <author><![CDATA[BoxNow]]></author>
+    <tab><![CDATA[shipping_logistics]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall the BoxNow Delivery module?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
