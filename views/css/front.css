@@ -1,0 +1,48 @@
+.js-carrier-extra-content {
+    /*margin-top: -15px;*/
+    /*margin-bottom: 0;*/
+    max-height: none !important;
+}
+
+#boxnow-popup-content-wrapper {
+    display: flex;
+    padding: 0 15px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline!important;
+}
+
+#boxnow-iframe-content-wrapper {
+    padding: 0 15px 15px 15px;
+    align-items: center;
+}
+
+#boxnow-locker-field-title {
+    font-weight: bold;
+}
+
+#boxnow-popup-window {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+}
+
+.boxnow-edit-locker{font-size:0.8em}
+
+.boxnow-selected-locker {
+    width: 80%!important;
+}
+.carrier__extra-content-wrapper.carrier__extra-content-wrapper--active.js-carrier-extra-content {
+    max-height: none !important;
+        transition: height .5s ease-in-out;
+
+}
